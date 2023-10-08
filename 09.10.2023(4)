@@ -1,3 +1,5 @@
-number = 5
-a = number * -1
-print(a) 
+a = 5
+if a > 0
+    print(a * -1)
+elif
+    print(a) 
