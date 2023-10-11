@@ -24,3 +24,8 @@ if a > 0
     print(a * -1)
 elif
     print(a) 
+
+#5
+word = input("Введите слово: ")
+a = word[::-1]
+print("Задом наперед:", a)
