@@ -52,3 +52,7 @@ def find_needle(haystack):
 #9
 def find_needle(haystack):
     return "found the needle at position " + str(haystack.index("needle"))
+
+#10
+def string_to_array(s):  
+    return s.split(" ")
