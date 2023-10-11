@@ -8,3 +8,9 @@ def even_or_odd(number):
         return "Even"
     else:
         return "Odd"
+
+def square_sum(number):
+    a = 0
+    for num in number:
+        a += num**2
+    return a
