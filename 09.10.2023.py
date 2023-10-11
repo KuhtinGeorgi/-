@@ -17,3 +17,10 @@ def a(arr):
         if num > 0:
             x += num
     return result
+
+#4
+a = 5
+if a > 0
+    print(a * -1)
+elif
+    print(a) 
