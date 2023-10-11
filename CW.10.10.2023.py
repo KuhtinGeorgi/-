@@ -27,3 +27,9 @@ def basic_op(operator, value1, value2):
         return value1 * value2
     elif operator == "/":
         return value1 / value2
+
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    if distance_to_pump <= mpg * fuel_left:
+        return True
+    else:
+        return False
