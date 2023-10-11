@@ -14,3 +14,6 @@ def square_sum(number):
     for num in number:
         a += num**2
     return a
+
+def greet():
+    return "hello world!"
