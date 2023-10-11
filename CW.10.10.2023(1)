@@ -1,4 +1,0 @@
-def invert(lst):
-    a = [num * -1 for num in lst]
-    return a
-    pass
