@@ -48,3 +48,7 @@ def greet(name):
 #8
 def find_needle(haystack):
     return "found the needle at position " + str(haystack.index("needle"))
+
+#9
+def find_needle(haystack):
+    return "found the needle at position " + str(haystack.index("needle"))
