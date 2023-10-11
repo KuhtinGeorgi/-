@@ -8,3 +8,12 @@ def a(number):
 #2
 def multiply(a, b):
     return a * b
+
+#3
+def a(arr):
+    x = 0
+    
+    for num in arr:
+        if num > 0:
+            x += num
+    return result
