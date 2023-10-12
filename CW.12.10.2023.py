@@ -71,3 +71,27 @@ def find_short(s):
         if len(l) > len(i):
             l = i
     return len(l)
+#8 Хватит ли пуль на драконов (2 пули на 1 дракона)
+def hero(bullets, dragons):
+    return (bullets / dragons) >= 2
+
+#9 Найти средний балл и узнать лучше ли я.
+def better_than_average(class_points, your_points):
+    midclass = sum(class_points) / len(class_points)
+    return midclass < your_points
+
+#10 Среднее значение в списке + "0" если список пуст.
+def find_average(numbers):
+    if len(numbers) != 0:
+        middle = sum(numbers) / len(numbers)
+        return middle
+    else:
+        return 0
+
+#11 Найти столетие
+def century(year):
+    if year % 100 == 0:
+        return year / 100
+    else: 
+        a = int(year / 100)
+        return a + 1
