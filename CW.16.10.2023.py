@@ -52,5 +52,33 @@ def fake_bin(x):
             result = result + "1"
     return result
 
-#7
+#7 На этот раз никакой истории, никакой теории. Приведенные ниже примеры показывают, как написать функцию accum:
+def accum(s):
+    i = 0
+    result = ''
+    for letter in s:
+        result += letter.upper() + letter.lower() * i + '-'
+        i += 1
+    return result[:len(result)-1]
+
+#8 Удалить каждый второй элемент.
+def remove_every_other(my_list):
+    r = []
+    for i in range(len(my_list)):
+        if i % 2 == 0:
+            r.append(my_list[i])
+    return r
+
+#9 В этом kata вы создадите функцию, которая принимает список неотрицательных целых чисел и строк и возвращает новый список с отфильтрованными строками.
+def filter_list(l):
+    result =[]
+    for x in l:
+        if type(x) != str:
+            result.append(x)
+    return result
+
+#10 Возраст
+def get_age(age):
+    return int(age[0])
+
 
