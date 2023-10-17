@@ -38,6 +38,10 @@ def tower_builder(n_floors):
         piramida.append(' ' * (n_floors - i) + '*' * (2 * i-1))
     return piramida
 
+#6 ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+def number(lines):
+  return ['%d: %s' % v for v in enumerate(lines, 1)]
+
 #6 Учитывая строку цифр, вы должны заменить любую цифру ниже 5 на "0", а любую цифру 5 и выше - на "1". Верните результирующую строку.
 def fake_bin(x):
     result = ""
