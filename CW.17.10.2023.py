@@ -31,3 +31,9 @@ def is_triangle(a, b, c):
         return True
     else:
         return False
+
+#7 Светофор Mk2
+def update_light(current):
+    return {'green': 'yellow', 'yellow': 'red', 'red': 'green'}[current]
+
+#8
