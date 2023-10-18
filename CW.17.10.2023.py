@@ -36,4 +36,17 @@ def is_triangle(a, b, c):
 def update_light(current):
     return {'green': 'yellow', 'yellow': 'red', 'red': 'green'}[current]
 
-#8
+#8 Перевод в int  сумма
+def sum_mix(arr):
+    sum = 0
+    for i in arr:
+        sum += int(i)
+    return sum
+
+#9 Сколько лет назад отец был старше чем сын в 2 раза
+def twice_as_old(dad_years_old, son_years_old):
+    return abs(dad_years_old - son_years_old * 2)
+
+#10 ТАРАКАН
+def cockroach_speed(s):
+    return int(s * 100000 / 3600)
