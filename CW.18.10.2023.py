@@ -40,3 +40,28 @@ def reverse(seq):
 #7 Ывывывывыв
 def series_sum(n):
     return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+
+#8 Принтер и ошибки.
+def printer_error(s):
+    errors = 0
+    count = len(s)
+    for i in s:
+        if i > "m":
+            errors += 1
+    return str(errors) + "/" + str(count)
+
+#9  Реализуйте функцию, принимающую n и d в качестве параметров и возвращающую это значение.
+def nb_dig(n, d):
+    result = 1 if d == 0 else 0
+    for k in range(1, n + 1):
+        x = k * k
+        while x:
+            if x % 10 == d:
+                result += 1
+            x //= 10
+    return result
+
+#10 Цифра 5 без цифры 5
+def unusual_five():
+    five = ['l', 'o', 'l', 'o', 'l']
+    return len(five)
